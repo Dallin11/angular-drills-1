@@ -1,3 +1,17 @@
+angular.module("arrayApp").service("arrayService", function(){
+
+this.test1 = "Service Working"
+
+
+this.getData = function(){
+	console.log(myData)
+	return myData;
+}
+this.getData;
+})
+
+
+
 var myData = [
 	{"name": "Aileen Jacobs", "email": "convallis.ante.lectus@euneque.co.uk", "dateEmployed": "01/01/2016", "phone": "1-862-996-4921"},
 	{"name": "Karen Delgado", "email": "dapibus@Morbiquis.ca", "dateEmployed": "10/03/2014", "phone": "403-8410"},
